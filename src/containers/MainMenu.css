@@ -1,0 +1,9 @@
+.main-menu {
+  text-align: center;
+  background-color: white;
+  margin: 5%;
+}
+
+.main-menu div.menu-item {
+    margin: 0 auto;
+}

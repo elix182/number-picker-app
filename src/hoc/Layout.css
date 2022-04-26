@@ -1,0 +1,10 @@
+.content {
+    box-shadow: 0 4pt 8pt 0 rgba(0,0,0,0.2);
+    min-width: 80vw;
+    min-height: 80vh;
+    width: 80%;
+    height: 80%;
+    border: 4pt 4pt 4pt 4pt black;
+    display: inline-block;
+    margin: 4vh 0 4vh 0;
+}

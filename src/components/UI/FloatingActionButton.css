@@ -1,0 +1,51 @@
+button.floating-action-button {
+    box-shadow: 0 4pt 8pt 0 rgba(0,0,0,0.2);
+    transition: 0.3s!important;
+    font-size: calc(100vw / 64) !important;
+    width: calc(80vw / 16) !important;
+    height: calc(80vw / 16) !important;
+    max-width: calc(80vw / 4) !important;
+    max-height: calc(80vw / 4) !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    margin: 10pt !important;
+    position: absolute !important;
+    z-index: 100;
+    cursor: pointer !important;
+}
+
+button.floating-action-button:hover {
+    box-shadow: 0 8pt 16pt 0 rgba(0,0,0,0.2);
+}
+
+button.floating-action-button template {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+button.floating-action-button * {
+    cursor: pointer !important;
+}
+
+.tl {
+    top: 2vh !important;
+    left: 2vw !important;
+}
+
+.tr {
+    top: 2vh !important;
+    right: 2vw !important;
+}
+
+.bl {
+    bottom: 2vh !important;
+    left: 2vw !important;
+}
+
+.br {
+    bottom: 2vh !important;
+    right: 2vw !important;
+}

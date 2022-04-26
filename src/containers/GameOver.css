@@ -1,0 +1,30 @@
+.game-over {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table {
+    display: table;
+    table-layout: fixed; /*for equal width columns*/
+    width: 100%;
+}
+.row {
+    display: table-row;
+}
+.col {
+    display: table-cell;
+    /*vertical-align: top;*/ /*enable this if necessary*/
+}
+.big {
+    font-size: xx-large;
+}
+
+.back-button {
+    min-width: 15vmin;
+    min-height: 15vmin;
+    max-height: 20vmin;
+    font-size: large;
+}

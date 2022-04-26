@@ -1,0 +1,72 @@
+.btn {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid transparent;
+    box-shadow: 0 4pt 8pt 0 rgba(0,0,0,0.2) !important;
+    border-radius: 5% !important;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #f2f2f2;
+}
+
+.primary {
+    background-color: royalblue;
+    color: white;
+    border-color: royalblue;
+}
+
+.primary:hover {
+    background-color: royalblue;
+}
+
+.success {
+    background-color: mediumseagreen;
+    color: white;
+    border-color: mediumseagreen;
+}
+
+.success:hover {
+    background-color:  #39ac6d;
+}
+
+.info {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border-color: cornflowerblue;
+}
+
+.info:hover {
+    background-color: #5f91ec;
+}
+
+.warning {
+    background-color: darkorange;
+    color: white;
+    border-color: darkorange;
+}
+
+.warning:hover {
+    background-color: #e67e00;
+}
+
+.danger {
+    background-color: firebrick;
+    color: white;
+    border-color: firebrick;
+}
+
+.danger:hover {
+    background-color: #ab2121;
+}

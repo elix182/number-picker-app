@@ -1,0 +1,5 @@
+.card {
+    box-shadow: 0 4pt 8pt 0 rgba(0,0,0,0.2);
+    border: 4pt 4pt 4pt 4pt black;
+    display: inline-block;
+}

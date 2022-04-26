@@ -1,0 +1,18 @@
+.new-game-editor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-orientation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.column-orientation {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} 

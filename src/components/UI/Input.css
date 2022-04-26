@@ -1,0 +1,16 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-label {
+    width: 100%;
+}
+
+.input-field {
+    width: 100%;
+}
+
+.input-error {
+    color: red;
+}
