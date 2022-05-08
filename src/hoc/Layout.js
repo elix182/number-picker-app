@@ -1,5 +1,5 @@
 import Wrapper from "./Wrapper";
-import Header from './Header';
+import Header from '../components/UI/Header';
 import './Layout.css'
 
 const layout = props => {

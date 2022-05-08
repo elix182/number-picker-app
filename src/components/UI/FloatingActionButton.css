@@ -12,6 +12,7 @@ button.floating-action-button {
     position: absolute !important;
     z-index: 100;
     cursor: pointer !important;
+    user-select: none !important;
 }
 
 button.floating-action-button:hover {

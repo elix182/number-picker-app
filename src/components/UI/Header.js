@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "./Wrapper";
+import Wrapper from "../../hoc/Wrapper";
 import './Header.css'
 
 const header = props => {

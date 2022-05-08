@@ -10,6 +10,7 @@
     border-radius: 50%;
     display: inline-block;
     margin: 10pt;
+    user-select: none;
 }
 
 .number-item:hover {
